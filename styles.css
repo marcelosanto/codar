@@ -264,6 +264,27 @@ aside {
 
 /*responsivo*/
 @media (max-width: 767px) {
+  .container {
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  aside {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .aside-img img {
+    margin-top: 100px;
+  }
+
+  aside .aside-input .input {
+    display: flex;
+    flex-direction: column;
+  }
+
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
